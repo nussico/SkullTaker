@@ -6,6 +6,7 @@
 	"description": "Players drop their head when killed in PvP. /skulltaker shows the kill leaderboard.",
 	"authors": ["nussico"],
 	"license": "CC0-1.0",
+	"icon": "assets/skulltaker/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": ["io.github.nussico.skulltaker.SkullTaker"]
