@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "skulltaker",
+	"version": "${version}",
+	"name": "SkullTaker",
+	"description": "Players drop their head when killed in PvP. /skulltaker shows the kill leaderboard.",
+	"authors": ["nussico"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["io.github.nussico.skulltaker.SkullTaker"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
