@@ -35,3 +35,5 @@ modrinth {
 		required.project "fabric-api"
 	}
 }
+
+tasks.named("modrinth") { notCompatibleWithConfigurationCache("Minotaur calls Task.project at execution time") }
